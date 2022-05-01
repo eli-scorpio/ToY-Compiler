@@ -17,5 +17,5 @@ Command to run a test:
 
 ## Authors
 
-Eligijus Skersonas skersone@tcd.ie
+Eligijus Skersonas skersone@tcd.ie  
 Mingwei Shi mshi@tcd.ie
