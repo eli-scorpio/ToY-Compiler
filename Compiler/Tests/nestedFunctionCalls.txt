@@ -1,0 +1,35 @@
+// Group 4
+
+// - Eligijus Skersonas
+// - Mingwei Shi
+
+// Valid: Yes
+
+// Description: nested function calls
+
+bool function3()
+{
+	printf("I am function 3");
+	return true;
+}
+
+void function2()
+{
+	printf("I am function 2");
+	bool val;
+	val = function3();
+}
+
+bool function()
+{
+	printf("I am function 1");
+	function2();
+	return true;
+}
+
+int main()
+{
+	function();
+	return 0;
+	
+}

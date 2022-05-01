@@ -1,0 +1,37 @@
+// Group 4
+
+// - Eligijus Skersonas
+// - Mingwei Shi
+
+// Valid: No
+
+// Description: calling a function but passing in a parameter with the incorrect type
+
+int function(int para1,int para2,bool para3)
+{
+	para1 = 1;
+	para2 = 2;
+	
+	para3 = true;
+	
+	if( para1<para2) then
+		return 1;
+	
+	else
+		return 0;
+}
+
+int main()
+{
+	int ac1;
+	ac1 = 3;
+
+	int ac2;
+	ac2 = 5;
+
+	int reutnF ;
+
+	reutnF = function(ac1 + ac2, ac2 % 4, 1234); // pass
+
+	return 0;
+}

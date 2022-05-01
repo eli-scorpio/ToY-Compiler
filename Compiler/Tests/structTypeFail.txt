@@ -1,0 +1,28 @@
+// Group 4
+
+// - Eligijus Skersonas
+// - Mingwei Shi
+
+// Valid: No
+
+// Description: in function2() the type em1.name.first_name does not match the type 12 < 16
+
+struct  Name {
+	string first_name,
+	string last_name
+}
+
+struct Employee 
+{
+	Name  name
+}
+
+struct  Dept{
+ 	Employee  head
+ }
+
+void function2()
+{
+	Employee em1;
+	em1.name.first_name = 12 < 16;
+}
